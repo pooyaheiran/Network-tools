@@ -1,0 +1,1 @@
+sock.settimeout(1)
