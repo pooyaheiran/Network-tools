@@ -5,7 +5,7 @@ import sys
 def main():
     global username 
     username = input("enter a username: ")
-    IP = input("enter host IP: : ")
+    IP = input("enter host IP: ")
     PORT = int(input("enter host PORT: "))
         
     client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
