@@ -23,7 +23,7 @@ def server():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     server.bind((IP,PORT))
-    server.listen(3)
+    server.listen()
     print(f"server is listening on port: {PORT}")
 
     
